@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const HomeContainer = styled.div`
+padding: 3rem;
 width: 100%;
 height: 100vh;
 background: ${({theme})=>theme.COLORS.Yellow};
@@ -31,6 +32,10 @@ span{
 h1{
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    font-weight: 900;
+}
+h1:hover{
+color: ${({theme})=>theme.COLORS.Yellow};
 }
 p{
     font-size: 1rem;
