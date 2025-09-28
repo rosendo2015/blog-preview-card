@@ -8,6 +8,11 @@ export default createGlobalStyle`
     }
     
     body{
+    display:flex; 
+    height:97vh; 
+    justify-content:center; 
+    align-items:center; 
+    
         font-family: "Figtree", sans-serif;
         background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
         }
